@@ -190,7 +190,9 @@ export class TwoTrack {
       const d = DATA.byDoc.get(entry.doc); return `<button class="chip ${cls}" data-id="${entry.id}" title="${esc(d.title)}">${esc(d.short)} <span class="pg">${entry.page_label && String(entry.page_label).startsWith('¶') ? esc(entry.page_label) : 'p. ' + esc(entry.page_label || entry.page)}</span></button>`;
     };
     const val = v => v == null ? '—' : (m.pct ? v.toFixed(1) + '%' : `${v < 0 ? '(' : ''}$${Math.abs(v).toLocaleString('en-US')}m${v < 0 ? ')' : ''}`);
+    const moneyVal = v => v == null ? '—' : `${v < 0 ? '(' : ''}$${Math.abs(v).toLocaleString('en-US')}m${v < 0 ? ')' : ''}`;
     const repV = s[m.rep], corV = s[m.cor]; const adjV = adjEntry ? adjEntry.value : null;
+    const adjDisplay = adjEntry ? (m.pct && corV != null && repV != null ? `${moneyVal(adjV)} <span class="small muted">(+${(corV - repV).toFixed(1)} pp)</span>` : moneyVal(adjV)) : '<small>none identified</small>';
     const mech = s.mechanism === 'accrual_release' ? 'accrual release' : s.mechanism === 'capitalization' ? 'capitalized as "prepaid capacity"' : '';
     const accRel = s.mechanism === 'accrual_release' ? (s.line_cost_reduction || 0) : 0;
     const capRed = s.mechanism === 'capitalization' ? (s.line_cost_reduction || 0) : 0;
@@ -210,7 +212,7 @@ export class TwoTrack {
     this.card.innerHTML = `
       <div class="qc-head"><h3>${fmt.quarter(q)} · ${m.title}</h3><span class="small muted">${repEntry && repEntry.track === 'reported-derived' ? 'Q4 derived: fiscal year (10-K) minus nine months (Q3 10-Q)' : repEntry ? DATA.byDoc.get(repEntry.doc).title.replace(' (as filed)', '') : ''}</span></div>
       <div class="cell"><div class="lab">Reported</div><div class="v reported">${val(repV)}</div>${chip(repEntry, 'k-reported')}</div>
-      <div class="cell"><div class="lab">${this.metric === 'revenue' ? 'Improper revenue entries' : this.metric === 'capex' ? 'Line costs capitalized' : 'Improper line-cost reduction'}${mech ? ` <span class="muted">· ${mech}</span>` : ''}</div><div class="v adj">${adjEntry ? val(adjV) : '<small>none identified</small>'}</div>${adjEntry ? chip(adjEntry, 'k-true') : ''}</div>
+      <div class="cell"><div class="lab">${this.metric === 'revenue' ? 'Improper revenue entries' : this.metric === 'capex' ? 'Line costs capitalized' : 'Improper line-cost reduction'}${mech ? ` <span class="muted">· ${mech}</span>` : ''}</div><div class="v adj">${adjDisplay}</div>${adjEntry ? chip(adjEntry, 'k-true') : ''}</div>
       <div class="cell"><div class="lab">Corrected <span class="tag reconstructed">reconstruction</span></div><div class="v true">${val(corV)}</div>${recEntry && adjEntry ? `<span class="small muted num">= ${fmt.m(repV)} ${m.above ? '+' : '−'} ${fmt.m(Math.abs(adjV))}</span>` : recEntry ? `<span class="small muted">${esc(recEntry.formula)}</span>` : corV === repV ? '<span class="small muted">no adjustment this quarter</span>' : ''}</div>
       ${eqHtml}
       <div class="qc-foot">

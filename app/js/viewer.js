@@ -72,7 +72,7 @@ export class DocPane {
     const doc = DATA.byDoc.get(cite.doc);
     if (!doc) return;
     const body = this.$('.dp-body');
-    if (!this.doc || this.doc.id !== doc.id) {
+    if (!this.doc || this.doc.id !== doc.id || !this.pages) {
       this.doc = doc; this.pages = null;
       body.innerHTML = `<div class="dp-empty">Loading ${esc(doc.short)}…</div>`;
       this.$('.dp-title').textContent = doc.short; this.$('.dp-title').title = doc.title;
