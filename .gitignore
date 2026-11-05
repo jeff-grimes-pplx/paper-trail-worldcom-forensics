@@ -1,0 +1,6 @@
+raw/docs/
+raw/edgar-img/
+films/*.mp4
+qa/
+__pycache__/
+*.pyc

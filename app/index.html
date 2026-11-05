@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paper Trail — WorldCom, 1999–2002: a forensic ledger from the primary record</title>
+<meta name="description" content="Reported versus corrected figures for WorldCom, quarter by quarter, with every number linked to the page of the SEC filing, special committee report, complaint or court opinion that proves it.">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/app.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f3efe6'/%3E%3Cpath d='M8 6h16v20H8z' fill='none' stroke='%23141412' stroke-width='2'/%3E%3Cpath d='M11 12h10M11 16h10M11 20h6' stroke='%238e2c25' stroke-width='2'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="masthead" id="masthead">
+  <div class="mast-title">
+    <h1>Paper Trail</h1>
+    <p class="dek">WorldCom, 1999–2002 · what was reported, what was true, and the page that proves it</p>
+  </div>
+  <nav class="sections" id="nav" aria-label="Sections">
+    <button data-section="chart" class="active">Two tracks</button>
+    <button data-section="mechanism">Mechanism</button>
+    <button data-section="timeline">Timeline</button>
+    <button data-section="ledger">Ledger</button>
+    <button data-section="documents">Documents</button>
+    <button data-section="method">Method<span class="long"> &amp; limits</span></button>
+  </nav>
+  <div class="mast-meta" id="mast-meta" aria-live="polite"></div>
+</header>
+
+<main class="desk" id="desk">
+  <section class="work" id="work" aria-label="Analysis">
+    <div class="pane-scroll" id="work-scroll">
+      <div id="section-chart" class="section active"></div>
+      <div id="section-mechanism" class="section"></div>
+      <div id="section-timeline" class="section"></div>
+      <div id="section-ledger" class="section"></div>
+      <div id="section-documents" class="section"></div>
+      <div id="section-method" class="section"></div>
+    </div>
+  </section>
+  <aside class="viewer" id="viewer" aria-label="Document viewer">
+    <div class="viewer-head">
+      <span class="viewer-kicker">Source pages</span>
+      <div class="viewer-tools">
+        <button id="viewer-layout" class="tool" title="Toggle one or two pages">Two pages</button>
+        <button id="viewer-close" class="tool mobile-only" title="Back to analysis">Back</button>
+      </div>
+    </div>
+    <div class="panes" id="panes"></div>
+  </aside>
+</main>
+
+<div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

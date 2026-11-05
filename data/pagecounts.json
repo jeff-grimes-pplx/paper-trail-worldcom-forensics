@@ -1,0 +1,230 @@
+{
+ "10q-1999q1": {
+  "pages": 30,
+  "chars": 118734
+ },
+ "10q-1999q2": {
+  "pages": 165,
+  "chars": 683722
+ },
+ "10q-1999q3": {
+  "pages": 36,
+  "chars": 164431
+ },
+ "10k-1999": {
+  "pages": 141,
+  "chars": 485798
+ },
+ "10q-2000q1": {
+  "pages": 78,
+  "chars": 320052
+ },
+ "10q-2000q2": {
+  "pages": 36,
+  "chars": 141864
+ },
+ "10q-2000q3": {
+  "pages": 42,
+  "chars": 189241
+ },
+ "10k-2000": {
+  "pages": 234,
+  "chars": 858741
+ },
+ "10q-2001q1": {
+  "pages": 59,
+  "chars": 255278
+ },
+ "10q-2001q2": {
+  "pages": 209,
+  "chars": 783592
+ },
+ "10q-2001q3": {
+  "pages": 67,
+  "chars": 313954
+ },
+ "10k-2001": {
+  "pages": 184,
+  "chars": 804316
+ },
+ "10q-2002q1": {
+  "pages": 79,
+  "chars": 312821
+ },
+ "8k-2002-02-07": {
+  "pages": 3,
+  "chars": 5483
+ },
+ "8k-2002-06-25": {
+  "pages": 7,
+  "chars": 9656
+ },
+ "8k-2002-07-21": {
+  "pages": 7,
+  "chars": 10636
+ },
+ "8k-2002-08-08": {
+  "pages": 6,
+  "chars": 8629
+ },
+ "8k-2002-08-14": {
+  "pages": 8,
+  "chars": 13416
+ },
+ "8k-2002-11-26": {
+  "pages": 6,
+  "chars": 5730
+ },
+ "8k-2003-07-07": {
+  "pages": 6,
+  "chars": 6572
+ },
+ "8k-2003-03-13": {
+  "pages": 9,
+  "chars": 15226
+ },
+ "beresford-report": {
+  "pages": 345,
+  "chars": 630662
+ },
+ "10k-2002": {
+  "pages": 194,
+  "chars": 660567
+ },
+ "sec-complaint-2002-06-26": {
+  "pages": 1,
+  "chars": 10355
+ },
+ "sec-amended-complaint-2002-11-05": {
+  "pages": 1,
+  "chars": 26459
+ },
+ "sec-sworn-statement-2002-07-01": {
+  "pages": 1,
+  "chars": 12946
+ },
+ "sec-sworn-statement-rev-2002-07-08": {
+  "pages": 1,
+  "chars": 19179
+ },
+ "sec-press-2002-94": {
+  "pages": 1,
+  "chars": 868
+ },
+ "sec-lr-17588": {
+  "pages": 1,
+  "chars": 3002
+ },
+ "sec-lr-17594": {
+  "pages": 1,
+  "chars": 1853
+ },
+ "sec-lr-17753": {
+  "pages": 1,
+  "chars": 3383
+ },
+ "sec-lr-17771": {
+  "pages": 1,
+  "chars": 2576
+ },
+ "sec-lr-17783": {
+  "pages": 1,
+  "chars": 3090
+ },
+ "sec-lr-17829": {
+  "pages": 1,
+  "chars": 2696
+ },
+ "sec-lr-17866": {
+  "pages": 1,
+  "chars": 9456
+ },
+ "sec-lr-18219": {
+  "pages": 1,
+  "chars": 4418
+ },
+ "sec-lr-18605": {
+  "pages": 1,
+  "chars": 7472
+ },
+ "sec-lr-19301": {
+  "pages": 1,
+  "chars": 3292
+ },
+ "sec-complaint-myers": {
+  "pages": 1,
+  "chars": 36816
+ },
+ "sec-complaint-yates": {
+  "pages": 1,
+  "chars": 34817
+ },
+ "sec-complaint-vinson-normand": {
+  "pages": 1,
+  "chars": 38387
+ },
+ "sec-complaint-sullivan": {
+  "pages": 1,
+  "chars": 27915
+ },
+ "sec-complaint-ebbers": {
+  "pages": 16,
+  "chars": 29007
+ },
+ "sdny-permanent-injunction-2002-11-26": {
+  "pages": 10,
+  "chars": 15914
+ },
+ "sdny-opinion-2003-07-07": {
+  "pages": 14,
+  "chars": 19557
+ },
+ "sdny-final-judgment-2003-07-07": {
+  "pages": 8,
+  "chars": 12327
+ },
+ "sec-brief-2003-06-06": {
+  "pages": 32,
+  "chars": 67242
+ },
+ "doj-indictment-sullivan-myers-2002-08": {
+  "pages": 29,
+  "chars": 38482
+ },
+ "doj-indictment-ebbers-2004": {
+  "pages": 31,
+  "chars": 42190
+ },
+ "doj-ag-statement-2005-03-15": {
+  "pages": 1,
+  "chars": 1225
+ },
+ "doj-sdny-ebbers-case": {
+  "pages": 1,
+  "chars": 2376
+ },
+ "ca2-ebbers-2006": {
+  "pages": 1,
+  "chars": 64104
+ },
+ "thornburgh-1": {
+  "pages": 122,
+  "chars": 242140
+ },
+ "thornburgh-2": {
+  "pages": 263,
+  "chars": 536296
+ },
+ "house-hearing-2002-07-08": {
+  "pages": 332,
+  "chars": 508160
+ },
+ "house-report-107-798": {
+  "pages": 136,
+  "chars": 357224
+ },
+ "senate-hearing-2003-07-22": {
+  "pages": 153,
+  "chars": 153280
+ }
+}

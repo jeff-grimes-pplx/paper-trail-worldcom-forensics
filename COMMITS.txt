@@ -1,0 +1,20 @@
+eb77a50 STATUS: repo submission c32f5d6f recorded
+446a454 repo fit: trim superseded media for the 5 GiB cap (sync_repo, README.repo, STATUS note)
+d41d9ec films v4: checkpoint 5 delivered to parent (mail f3570629), STATUS updated
+dd9d435 films v4: standard v2.1 captioned release candidate + clean film (one 2,700-frame render, Q2 2001 second click), §7 receipts, independent review PASS, handoff/status
+57c352e STATUS: checkpoint 4 mail preserved (parent session completed; delivery failed)
+8cfeefe STATUS/HANDOFF: checkpoint 4 hashes, size-fitted 45 s repo copy noted
+c87f36c qa/review: redact the internal preview host from the acceptance reviewer's scripts and log
+dd5e80c 45 s film delivered (standard v2): draft 4 capture with 0.5 s settles and 1.1 s pans, receipts films-v2.md, measure/report fixes, independent reviews draft 3 + final (accepted on §3, must-fix none), HANDOFF films v3 section, STATUS READY with asset IDs
+b3941e7 45 s film pass: tooltip dismiss-on-click + 120 ms fade (chart.js, app.css), header fade over scrolled page text (.dp-head::after); capture45.js final 18-beat sequence, measure/encode/report scripts, independent review draft 1
+f542526 Artifact pass (standard v2): quarter card 2-col layout 901–1580 px, verification-table id wrapping, narrow-pane ledger scroll + timeline chip wrap; overflow + verify-all QA scripts
+bf7d693 STATUS: checkpoint 3 delivered (hashes, asset IDs)
+9113449 Films v2 handoff: shot lists with camera moves, repo-fit copies, disclosure; checkpoint 3
+31e908b Nav wraps on narrow phones; films v2: pointer-led zooms (CDP clip capture), early first click, tighter holds
+6436e56 Handoff: films re-encoded at crf 20 to fit the project repo cap; notes on what is stored where
+69f76e7 Handoff: HANDOFF/STATUS/ATTRIBUTION, register and verification tables, film capture scripts and shot lists
+6b11f44 Review fixes D1–D7: mobile URL wrap, single-pane viewer on mobile, nav/scroll affordances, Mechanism §4 page cites, Method sentence, restatement footnote, chart guards; ev44 counts/date wording; indictment copy undated
+1dfe8a2 Film hooks: chart reveal parameter, film reset; empty pane hides pager and cite strip
+2a2f3b6 Masthead: body grid with auto-height masthead; dek wraps to two lines instead of truncating
+2504883 Chart: gap label pill painted last; value-label halo; viewer skips image fetch for unbundled PDF pages
+c7b0e4f Paper Trail: WorldCom restatement ledger, viewer, chart, mechanism, timeline; 57 docs, 453 values, 44/44 verified
