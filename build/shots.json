@@ -1,0 +1,20 @@
+{
+  "shots": [
+    { "id": "S01", "duration": 8.0, "vo": "From 1999 to 2002, WorldCom hid over seven billion dollars in line costs across thirteen quarterly filings." },
+    { "id": "S02", "duration": 8.0, "vo": "Perplexity Computer built Paper Trail to reconstruct the fraud directly from fifty-seven SEC and court filings." },
+    { "id": "S03", "duration": 7.5, "vo": "Click any quarter on the chart, like Q3 2000, and both primary filing pages open right beside the numbers." },
+    { "id": "S04", "duration": 8.0, "vo": "In Q3 2000, WorldCom reported 3.87 billion in line costs, hiding 828 million through reserve releases." },
+    { "id": "S05", "duration": 9.0, "vo": "The top pane shows the original 10-Q page with its SHA-256 hash, while the bottom pane shows the Special Committee table proving the entry." },
+    { "id": "S06", "duration": 8.0, "vo": "By early 2001, those reserves had run dry, so executives switched to capitalizing line costs as prepaid capacity." },
+    { "id": "S07", "duration": 8.0, "vo": "That quarter alone, 771 million dollars of network operating costs were moved onto the balance sheet as capital assets." },
+    { "id": "S08", "duration": 9.0, "vo": "Switching metrics to Pre-Tax Income or Capital Expenditures synchronizes the chart and loads the matching cash flow and restatement pages." },
+    { "id": "S09", "duration": 8.5, "vo": "Viewing line costs as a share of revenue exposes the target: management forced the reported ratio to stay flat near forty-two percent." },
+    { "id": "S10", "duration": 8.0, "vo": "Below the chart, the Double-Entry Workbench maps how 7.18 billion dollars flowed through the general ledger." },
+    { "id": "S11", "duration": 8.0, "vo": "Filter the Sankey diagram and four T-accounts by phase or quarter to inspect every debit, credit, and officer directive." },
+    { "id": "S12", "duration": 7.5, "vo": "Every journal entry in the T-accounts links directly back to the exact paragraph or exhibit that proves the manipulation." },
+    { "id": "S13", "duration": 8.0, "vo": "The chronology tracks forty-seven dated events from 1999 through Internal Audit's discovery and the final court judgments." },
+    { "id": "S14", "duration": 8.0, "vo": "All 453 ledger rows are searchable here, separating page-cited primary values from arithmetic reconstructions." },
+    { "id": "S15", "duration": 8.0, "vo": "Every filing is checksummed, and you can export the complete six-tab Excel forensic audit workbook in one click." },
+    { "id": "S16", "duration": 8.5, "vo": "Paper Trail turns over three thousand pages of static legal filings into an interactive, page-verified forensic accounting workbench." }
+  ]
+}
